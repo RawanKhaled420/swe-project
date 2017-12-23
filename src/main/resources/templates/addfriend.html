@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>add friendApp</title>
+</head>
+<body>
+
+<form method ="post" th:action ="@{/addfriend}">
+
+ID:<input type ="text" name="id"/>
+<br></br>
+<input type ="submit" value="add friend"/>
+<br></br>
+</form>
+
+
+
+
+<!-- <form method ="post" th:action ="@{/addfriend}"th:object="${friend}">
+Name:<input type ="text" name="name"/>
+<br></br>
+ID:<input type ="text"ID="id"/>
+<br></br>
+<input type ="submit" value="submit"/>
+<br></br>
+</form>
+-->
+</body>
+</html>
+ 
